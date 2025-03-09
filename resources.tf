@@ -5,4 +5,6 @@ resource "databricks_cluster" "example" {
   node_type_id            = "Standard_DS3_v2"
   autotermination_minutes = 20
   num_workers             = 2
+
+  
 }
