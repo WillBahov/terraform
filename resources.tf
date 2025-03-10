@@ -7,4 +7,5 @@ resource "databricks_cluster" "example" {
   num_workers             = 2
 
   
+  
 }
